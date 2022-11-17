@@ -23,7 +23,7 @@ authSchema.methods.comparePasswords = async function (candidatePassword) {
     return isMatch
     
 }
-authSchema.methods.createJWT = Function(){
+authSchema.methods.createJWT = function(){
     return jwt.sign(
         {id: this_id, username: this.username},
         process.env.JWT_SECRET,
