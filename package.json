@@ -15,7 +15,7 @@
   "description": "this this is an introduction to the express framework",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC"
